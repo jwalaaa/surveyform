@@ -27,12 +27,13 @@ export default function SurveyPage({ apiKey, apiUrl }) {
           },
           {
             type: "text",
-            name: "Email",
+            name: "email",
             title: "Email",
             isRequired: true,
             validators: [
               {
                 type: "email",
+                text: "Please enter a valid email address",
               },
             ],
           },
