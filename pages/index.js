@@ -26,8 +26,8 @@ export default function SurveyPage({ apiKey, apiUrl }) {
             isRequired: true,
           },
           {
-            type: "email",
-            name: "email",
+            type: "text",
+            name: "Email",
             title: "Email",
             isRequired: true,
             validators: [
